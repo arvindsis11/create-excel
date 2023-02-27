@@ -5,4 +5,17 @@
 ### output excel sheet
 <img width="289" alt="image" src="https://user-images.githubusercontent.com/57572062/221575830-fe78570c-b1c9-4acb-93b9-e59ed1c78f41.png">
 
+### null pointer exception handling:
+```bash row.createCell(0).setCellValue(tutorial.getId()==null?"":user.getId()); ```
+
+### add this dependancy:
+
+```xml
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi-ooxml</artifactId>
+	<version>4.1.2</version>
+</dependency>
+```
+
 
