@@ -1,3 +1,5 @@
+package com.arvind.fileprocessing.model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import com.arvind.fileprocessing.model.User;
 import com.arvind.fileprocessing.util.ExcelHelper;
 
-class GenerateList {
+class GenerateSheetTest {
 
 	@Test
 	void test() {
